@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2909.819 414.484 206.307 124.434">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8996ac;
+        opacity: 0.744;
+      }
+
+      .cls-2 {
+        fill: #e2f0f0;
+        opacity: 0.831;
+      }
+
+      .cls-3 {
+        filter: url(#Subtraction_2);
+      }
+
+      .cls-4 {
+        filter: url(#Ellipse_3);
+      }
+
+      .cls-5 {
+        filter: url(#Ellipse_2);
+      }
+
+      .cls-6 {
+        filter: url(#Ellipse_1);
+      }
+    </style>
+    <filter id="Ellipse_1" x="2909.819" y="446.063" width="77.65" height="77.65" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_2" x="2946.077" y="414.484" width="79.989" height="79.989" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_3" x="3053.681" y="476.473" width="62.445" height="62.445" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-3"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Subtraction_2" x="3013.783" y="422.484" width="81.493" height="109.229" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-4"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_19" data-name="Group 19" transform="translate(1394.815 -454.378)">
+    <g id="partly_cloudy" data-name="partly cloudy" transform="translate(1524.004 874.862)">
+      <g class="cls-6" transform="matrix(1, 0, 0, 1, -2918.82, -420.48)">
+        <ellipse id="Ellipse_1-2" data-name="Ellipse 1" class="cls-1" cx="29.825" cy="29.825" rx="29.825" ry="29.825" transform="translate(2918.82 452.06)"/>
+      </g>
+      <g class="cls-5" transform="matrix(1, 0, 0, 1, -2918.82, -420.48)">
+        <ellipse id="Ellipse_2-2" data-name="Ellipse 2" class="cls-1" cx="30.995" cy="30.995" rx="30.995" ry="30.995" transform="translate(2955.08 420.48)"/>
+      </g>
+      <g class="cls-4" transform="matrix(1, 0, 0, 1, -2918.82, -420.48)">
+        <ellipse id="Ellipse_3-2" data-name="Ellipse 3" class="cls-1" cx="22.223" cy="22.223" rx="22.223" ry="22.223" transform="translate(3062.68 482.47)"/>
+      </g>
+    </g>
+    <g class="cls-3" transform="matrix(1, 0, 0, 1, -1394.82, 454.38)">
+      <path id="Subtraction_2-2" data-name="Subtraction 2" class="cls-2" d="M-1349.2,545.608a45.666,45.666,0,0,1-45.615-45.615,45.666,45.666,0,0,1,45.615-45.615,45.32,45.32,0,0,1,17.878,3.637,42.656,42.656,0,0,0-39.276,42.379,42.444,42.444,0,0,0,37.664,42.228A45.427,45.427,0,0,1-1349.2,545.608Z" transform="translate(4417.6 -25.89)"/>
+    </g>
+  </g>
+</svg>

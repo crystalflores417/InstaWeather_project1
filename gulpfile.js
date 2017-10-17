@@ -10,32 +10,32 @@ var gulp = require('gulp'),
 
 // Compile all the styles
 gulp.task('styles', function() {
-	return sass('scss/bootstrap.scss', { style: 'expanded' })
+	return sass('assets/scss/bootstrap.scss', { style: 'expanded' })
 		.pipe(autoprefixer('last 3 versions'))
-		.pipe(gulp.dest('dist/css/'))
+		.pipe(gulp.dest('assets/dist/css/'))
 		.pipe(rename({suffix: '.min'}))
 		.pipe(cleancss())
-		.pipe(gulp.dest('dist/css/'))
+		.pipe(gulp.dest('assets/dist/css/'))
 		.pipe(notify({ message: 'Styles task complete' }));
 });
 
 // Images
 gulp.task('images', function() {
-	return gulp.src('images/**')
+	return gulp.src('assets/images/**')
 		.pipe(imagemin([
 		    imagemin.gifsicle({interlaced: true}),
 		    imagemin.jpegtran({progressive: true}),
 		    imagemin.optipng({optimizationLevel: 5}),
 		    imagemin.svgo({plugins: [{removeViewBox: true}]})
 		]))
-		.pipe(gulp.dest('dist/images/'))
+		.pipe(gulp.dest('assets/dist/images/'))
 		.pipe(notify({ message: 'Images task complete' }));
 });
 
 // Watch for updates; compile on save
 gulp.task('watch', function() {
 	// Watch SCSS files
-	gulp.watch('scss/**/*.scss', ['styles']);
+	gulp.watch('assets/scss/**/*.scss', ['styles']);
 	// Watch image files
-	gulp.watch('images/**', ['images']);
+	gulp.watch('assets/images/**', ['images']);
 });

@@ -19,7 +19,7 @@
 
   // Optional, uncomment to see the data array
    echo '<pre>';
-   print_r($address_data);
+   //print_r($address_data);
    echo '</pre>';
 
   // Get the latitude and longitude array from the Google Geo data
