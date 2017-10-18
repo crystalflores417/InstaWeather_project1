@@ -8406,13 +8406,26 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  color: #000000;
+  width: 100vw;
+  height: 100vh;
+  color: #fff;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
 }
-
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 h3 {
-  font-family: 'Asap', sans-serif;
+  font-family: 'Amatic SC', cursive;
 }
 
 .form-group {
@@ -8424,14 +8437,20 @@ h3 {
   height: 100%;
   background: url(../images/sunflower_bg.jpg) center center no-repeat;
   background-size: cover;
-}
-.bg-img-main:before {
-  content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
-  background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
-  opacity: .8;
+}
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.lead {
+  font-family: 'Amatic SC', cursive;
 }

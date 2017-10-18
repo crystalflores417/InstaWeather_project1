@@ -3,7 +3,7 @@
 
  ?>
 <pre>
-  <?php //print_r($forecast); ?>
+  <?php// print_r($forecast); ?>
 </pre>
 
 <pre>
@@ -20,11 +20,8 @@
   foreach ($images as $image ) {
 $thumbnail =  $image->images->standard_resolution->url;
   //var_dump($thumbnail);
- 
 
-
-
-   if($image->caption->text == '#clearday'){
+if($image->caption->text == '#clearday'){
     $thumbnail_clearday =  $image->images->standard_resolution->url;
   }else if( $image->caption->text =='#rain'){
     $thumbnail_rain =  $image->images->standard_resolution->url;
@@ -38,15 +35,12 @@ $thumbnail =  $image->images->standard_resolution->url;
     $thumbnail_snow =  $image->images->standard_resolution->url;
   }else if( $image->caption->text =='#partlycloudynight'){
     $thumbnail_partlycloudynight =  $image->images->standard_resolution->url;
-  }else if ( $image->caption->text =='#wind'){
+  }else if( $image->caption->text =='#wind'){
     $thumbnail_wind =  $image->images->standard_resolution->url;
-  } else {
-    $thumbnail = NULL; // Image url for default
-    
+  } else $thumbnail = NULL;
     
   }
-}
-
+ 
 if($forecast->currently->icon == 'clear-day') {
      $thumbnail = $thumbnail_clearday;
   } else if ($forecast->currently->icon == 'rain'){
@@ -67,6 +61,9 @@ if($forecast->currently->icon == 'clear-day') {
      $thumbnail = $thumbnail_clearnight;
 }
 
+}  
+
+
     
     
 
@@ -77,8 +74,10 @@ if($forecast->currently->icon == 'clear-day') {
 
 
 </pre>
+ 
+
 <div class="row justify-content-center ">
-  <h1 class="display-3 text-center mt-5 text-light">
+  <h1 class="display-3 text-center  text-light">
     InstaWeather
     
   </h1>
@@ -96,6 +95,8 @@ if($forecast->currently->icon == 'clear-day') {
 
    </div>
    </div>
+
+   <img src=" <?php echo $thumbnail ;?> " alt="" class=" img-fluid rounded mx-auto d-block">
   
   
 
@@ -109,11 +110,11 @@ if($forecast->currently->icon == 'clear-day') {
 
 <main class="container py-5 text-center ">
 
-<img src=" <?php echo $thumbnail ;?> " alt="" class="img-fluid">
+
 
   
-  <div class="text-left py-5 mx-auto" style="max-width: 320px;">
-    <?php include 'partials/form.php'; ?>
+  <div class=" py-5 mx-auto" style="max-width: 320px;">
+   
   </div>
   <div class=" p-4 my-5 mx-auto" style="max-width: 320px;">
     <p class="lead text-bold m-0">Todays Weather in <?php echo $place; ?> is</p>
@@ -141,7 +142,7 @@ if($forecast->currently->icon == 'clear-day') {
   </div>
   <div class="row">
     <?php foreach($forecast['daily']['data'] as $day): ?>
-      <div class="col-12 col-md-2">
+      <div class="col-6 col-md-3 " >
         <div class=" p-4 my-5 mx-auto"">
           <p class=" lead m-0">
             <?php echo gmdate("D", $day['time']); ?>
