@@ -1,34 +1,20 @@
-
-$jumbotron-padding:              2rem !default;
-$jumbotron-bg:                   $gray-900 ;
-
-.jumbotron {
-  padding: $jumbotron-padding ($jumbotron-padding / 2);
-  margin-bottom: $jumbotron-padding;
-  background-color: $jumbotron-bg;
-  @include border-radius($border-radius-lg);
-
-  @include media-breakpoint-up(sm) {
-    padding: ($jumbotron-padding * 2) $jumbotron-padding;
-  }
-}
-
 body {
   width: 100%;
   height: 100%;
-  color:white;
+  color:#000000;
+  
 }
 
 h3{
   font-family: 'Asap', sans-serif;
-  color:#ffffff;
+  
 }
 
 .form-group{
   width:80%;
 }
 
-.bg-img {
+.bg-img-main {
 
   width: 100%;
   height: 100%;
@@ -37,7 +23,7 @@ h3{
 
   
   &:before {
-    z-index: -5;
+    
     content: '';
   position: absolute;
   top: 0;
@@ -45,10 +31,7 @@ h3{
   bottom: 0;
   left: 0;
   background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-  opacity: .6; 
+  opacity: .8; 
   }
 }
-
-
-
 
