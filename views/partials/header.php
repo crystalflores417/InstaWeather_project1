@@ -11,5 +11,5 @@
 </head>
 <?php include 'results.php'; ?>
 
-<body class="" >
+<body class="bg-img-results" style="background-color:#000000" >
 

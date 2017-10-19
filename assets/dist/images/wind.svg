@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="2609.5 775.674 190.26 124.054">
+<svg id="Group_10" data-name="Group 10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1120.5 440.674 190.26 124.054">
   <defs>
     <style>
       .cls-1, .cls-2, .cls-3 {
@@ -47,42 +47,42 @@
         filter: url(#Line_3);
       }
     </style>
-    <filter id="Line_3" x="2616.5" y="823.5" width="139" height="30" filterUnits="userSpaceOnUse">
+    <filter id="Line_3" x="1127.5" y="488.5" width="139" height="30" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Line_4" x="2653.5" y="850" width="139" height="23" filterUnits="userSpaceOnUse">
+    <filter id="Line_4" x="1164.5" y="515" width="139" height="23" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-2"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-2"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Line_5" x="2609.5" y="866" width="107" height="27" filterUnits="userSpaceOnUse">
+    <filter id="Line_5" x="1120.5" y="531" width="107" height="27" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-3"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-3"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Ellipse_1" x="2744.323" y="822.14" width="55.437" height="55.437" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_1" x="1255.323" y="487.14" width="55.437" height="55.437" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-4"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-4"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Ellipse_2" x="2687.864" y="775.674" width="79.768" height="79.768" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_2" x="1198.864" y="440.674" width="79.768" height="79.768" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-5"/>
       <feFlood flood-opacity="0.161"/>
       <feComposite operator="in" in2="blur-5"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <filter id="Ellipse_3" x="2666.126" y="837.442" width="62.286" height="62.286" filterUnits="userSpaceOnUse">
+    <filter id="Ellipse_3" x="1177.126" y="502.442" width="62.286" height="62.286" filterUnits="userSpaceOnUse">
       <feOffset dy="3" input="SourceAlpha"/>
       <feGaussianBlur stdDeviation="3" result="blur-6"/>
       <feFlood flood-opacity="0.161"/>
@@ -90,24 +90,24 @@
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
-  <g id="Group_23" data-name="Group 23" transform="translate(1990 -13)">
-    <g class="cls-10" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <line id="Line_3-2" data-name="Line 3" class="cls-1" x1="121" transform="translate(2625.5 835.5)"/>
+  <g id="Group_2" data-name="Group 2" transform="translate(501 -348)">
+    <g class="cls-10" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <line id="Line_3-2" data-name="Line 3" class="cls-1" x1="121" transform="translate(1136.5 500.5)"/>
     </g>
-    <g class="cls-9" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <line id="Line_4-2" data-name="Line 4" class="cls-2" x1="121" transform="translate(2662.5 858.5)"/>
+    <g class="cls-9" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <line id="Line_4-2" data-name="Line 4" class="cls-2" x1="121" transform="translate(1173.5 523.5)"/>
     </g>
-    <g class="cls-8" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <line id="Line_5-2" data-name="Line 5" class="cls-3" x1="89" transform="translate(2618.5 876.5)"/>
+    <g class="cls-8" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <line id="Line_5-2" data-name="Line 5" class="cls-3" x1="89" transform="translate(1129.5 541.5)"/>
     </g>
-    <g class="cls-7" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" class="cls-4" cx="18.719" cy="18.719" rx="18.719" ry="18.719" transform="translate(2753.32 828.14)"/>
+    <g class="cls-7" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <ellipse id="Ellipse_1-2" data-name="Ellipse 1" class="cls-4" cx="18.719" cy="18.719" rx="18.719" ry="18.719" transform="translate(1264.32 493.14)"/>
     </g>
-    <g class="cls-6" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" class="cls-4" cx="30.884" cy="30.884" rx="30.884" ry="30.884" transform="translate(2696.86 781.67)"/>
+    <g class="cls-6" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <ellipse id="Ellipse_2-2" data-name="Ellipse 2" class="cls-4" cx="30.884" cy="30.884" rx="30.884" ry="30.884" transform="translate(1207.86 446.67)"/>
     </g>
-    <g class="cls-5" transform="matrix(1, 0, 0, 1, -1990, 13)">
-      <ellipse id="Ellipse_3-2" data-name="Ellipse 3" class="cls-4" cx="22.143" cy="22.143" rx="22.143" ry="22.143" transform="translate(2675.13 843.44)"/>
+    <g class="cls-5" transform="matrix(1, 0, 0, 1, -501, 348)">
+      <ellipse id="Ellipse_3-2" data-name="Ellipse 3" class="cls-4" cx="22.143" cy="22.143" rx="22.143" ry="22.143" transform="translate(1186.13 508.44)"/>
     </g>
   </g>
 </svg>
